@@ -24,3 +24,7 @@ def test_sort_by_area(sample_countries, reverse, expected_first):
     (True, "Німеччина"), # Найбільше населення
     (False, "Польща")    # Найменше населення
 ])
+def test_sort_by_population(sample_countries, reverse, expected_first):
+    # Тестування методу сортування за населенням
+    sorted_list = CountrySorter.sort_by_population(sample_countries, reverse=reverse)
+    assert sorted_list[0].name == expected_first
