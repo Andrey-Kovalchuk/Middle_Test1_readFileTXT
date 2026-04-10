@@ -7,3 +7,8 @@ class CountrySorter:
     def sort_by_area(countries: List[Country], reverse: bool = False) -> List[Country]:
         """Повертає новий відсортований список за площею."""
         return sorted(countries, key=lambda c: c.area, reverse=reverse) 
+    
+    @staticmethod
+    def sort_by_population(countries: List[Country], reverse: bool = False) -> List[Country]:
+        """Повертає новий відсортований список за населенням."""
+        return sorted(countries, key=lambda c: c.population, reverse=reverse)
