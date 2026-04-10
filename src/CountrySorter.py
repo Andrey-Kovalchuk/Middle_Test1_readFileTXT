@@ -1,5 +1,5 @@
 from typing import List
-from models import Country
+from src.models import Country
 
 # Клас, що відповідає виключно за сортування
 class CountrySorter:

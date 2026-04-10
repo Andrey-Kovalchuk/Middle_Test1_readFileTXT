@@ -1,7 +1,7 @@
 from typing import List, Tuple
-from models import Country
-from readers import DataReader
-from sorters import CountrySorter
+from src.models import Country
+from src.readers.DataReader import DataReader
+from src.CountrySorter import CountrySorter
 
 # Головний клас для керування процесом
 class CountryApp:

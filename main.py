@@ -1,6 +1,6 @@
-from readers import TextFileReader
-from sorters import CountrySorter
-from app import CountryApp
+from src.readers.TextFileReader import TextFileReader
+from src.CountrySorter import CountrySorter
+from src.CountryApp import CountryApp
 
 if __name__ == "__main__":
     # Створюємо тестовий файл для перевірки

@@ -1,7 +1,7 @@
 import os
 from abc import ABC, abstractmethod
 from typing import List
-from models import Country
+from src.models import Country
 
 # Інтерфейс для зчитування даних
 class DataReader(ABC):

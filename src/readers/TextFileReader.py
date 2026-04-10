@@ -1,8 +1,8 @@
 import os
 from abc import ABC, abstractmethod
 from typing import List
-from models import Country
-from readers.DataReader import DataReader
+from src.models import Country
+from src.readers.DataReader import DataReader
 
 class TextFileReader(DataReader):
     def read_data(self, file_path: str) -> List[Country]:
